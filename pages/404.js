@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 
 function Custom404() {
-  const { t } = useTranslation();
 
   return (
     <Fragment>

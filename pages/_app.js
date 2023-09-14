@@ -3,6 +3,9 @@ import AOS from "aos";
 // import "../styles/styles.scss";
 import "aos/dist/aos.css";
 import "../styles/globals.css";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import Layout from "@components/Common/Layout";
 import PropTypes from "prop-types";
 function MyApp({ Component, pageProps }) {
