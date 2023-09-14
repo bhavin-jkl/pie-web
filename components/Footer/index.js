@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 import React, { Fragment } from "react";
 import { AiFillMail, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";

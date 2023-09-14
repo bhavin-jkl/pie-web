@@ -15,7 +15,6 @@ function ContactUsPanel() {
         "flex",
         "items-center",
         "justify-center",
-        // eslint-disable-next-line prettier/prettier
         styles.bg
       )}
     >
@@ -32,17 +31,11 @@ function ContactUsPanel() {
           </div>
 
           <div className="w-full pt-6 lg:w-72 lg:mx-12">
-            {/* <a
+            <a
               href="javascript:void(0)"
               class="inline-block bg-primary2 rounded-full  py-2 px-7 text-base font-medium text-primary4 transition hover:border-primary1 hover:bg-primary4 hover:text-primary1"
             >
-              Let's Inquiry
-            </a> */}
-            <a
-              href="javascript:void(0)"
-              class="inline-block bg-primary1 rounded-full py-2 px-7 text-base font-medium text-primary4 transition hover:border-primary1 hover:bg-primary4 hover:text-primary1"
-            >
-              View Details
+              {"Let's Inquiry"}
             </a>
           </div>
         </div>

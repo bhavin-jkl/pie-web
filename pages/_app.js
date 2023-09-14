@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Layout from "@components/Common/Layout";
 import PropTypes from "prop-types";
+import ScrollProgressBar from "@components/ScrollProgressBar";
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
@@ -21,6 +22,7 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       <Layout>
         <Component {...pageProps} />
+        <ScrollProgressBar />
       </Layout>
     </Fragment>
   );

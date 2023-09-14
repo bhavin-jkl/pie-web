@@ -47,7 +47,7 @@ function Blog() {
               Look At Our Case Studies
             </h2>
             <p class="text-base text-body-color">
-              A glimpse of work we've done.
+              {"A glimpse of work we've done."}
             </p>
           </div>
         </div>
