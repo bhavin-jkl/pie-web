@@ -4,6 +4,8 @@ import IndustryServeList from "@components/IndustryServeList";
 import ClientReview from "@components/ClientReview";
 import OurProjects from "@components/OurProjects";
 import React, { Fragment } from "react";
+import Blog from "@components/Blog";
+import ContactUsPanel from "@components/ContactUsPanel";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <IndustryServeList />
       <ClientReview />
       <OurProjects />
+      <Blog />
+      <ContactUsPanel />
     </Fragment>
   );
 }
