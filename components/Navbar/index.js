@@ -4,15 +4,15 @@ import React, { Fragment } from "react";
 function Navbar(props) {
   return (
     <Fragment>
-      <div className="bg-orange-50 shadow-lg">
-        <nav className="container mx-auto h-20 w-full px-6">
-          <div className="flex items-center h-full w-full justify-between">
+      <div className="bg-white shadow-lg">
+        <nav className="container w-full h-20 px-6 mx-auto">
+          <div className="flex items-center justify-between w-full h-full">
             <img
               src="/assets/images/svg/piemulti.svg"
               className="w-56"
               alt="qwe"
             />
-            <div className="flex items-center gap-4 text-xl tracking-wide font-semibold cursor-pointer text-gray-600">
+            <div className="flex items-center gap-4 text-xl font-semibold tracking-wide text-gray-600 cursor-pointer">
               <span className="hover:text-orange-600">All Services</span>
               <div className="h-7 w-[2px] bg-gray-600" />
               <span className="hover:text-orange-600">Industries we serve</span>
@@ -32,7 +32,7 @@ function Navbar(props) {
                 placeholder="Search here..."
               />
 
-              <div className="absolute right-4 h-5 w-5">
+              <div className="absolute w-5 h-5 right-4">
                 <svg
                   class="svg-icon search-icon"
                   aria-labelledby="title desc"
@@ -59,8 +59,8 @@ function Navbar(props) {
         </nav>
       </div>
       <nav className="max-w-7xl mx-auto px-4 bg-[#43b8c5] h-14 rounded-b-2xl font-semibold cursor-pointer shadow-lg">
-        <div className="text-white flex gap-2 px-4 items-center">
-          <span className="hover:text-black">FOREGIN LANGUAGE SUPPORT</span>
+        <div className="flex items-center gap-2 px-4 text-white">
+          <span className="hover:text-primary3">FOREGIN LANGUAGE SUPPORT</span>
           <div className="h-14 w-[2px] bg-white" />
           <span className="hover:text-black">MARKET RESEARCH & ANALYSIS</span>
           <div className="h-14 w-[2px] bg-white" />
