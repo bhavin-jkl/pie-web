@@ -5,6 +5,9 @@ import ClientReview from "@components/ClientReview";
 import OurProjects from "@components/OurProjects";
 import React, { Fragment } from "react";
 import VideoPlayer from "@components/VideoPlayer";
+import Blog from "@components/Blog";
+import ContactUsPanel from "@components/ContactUsPanel";
+import CaseStudies from "@components/CaseStudy";
 
 export default function Home() {
   return (
@@ -15,6 +18,9 @@ export default function Home() {
       <ClientReview />
       <OurProjects />
       <VideoPlayer />
+      <CaseStudies />
+      {/* <Blog /> */}
+      <ContactUsPanel />
     </Fragment>
   );
 }
