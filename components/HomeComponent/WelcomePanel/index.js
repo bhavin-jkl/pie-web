@@ -5,7 +5,7 @@ function WelcomePanel() {
   return (
     <Fragment>
       <div
-        className="relative h-screen pt-14 bg-primary7"
+        className="relative h-screen pt-14 bg-primary4"
         data-aos="fade-down"
         data-aos-duration="900"
         data-aos-delay="600"
@@ -25,9 +25,8 @@ function WelcomePanel() {
                   className="text-4xl font-extrabold tracking-normal font-Jost text-primary2 xl:tracking-wider"
                 />
                 <div className="flex flex-col  mb-2 text-4xl font-bold leading-snug text-dark sm:text-[42px] lg:text-[40px] xl:text-[42px]">
-                  <p> {"Kickstart"}</p>
-                  <p> {"Startup Website"} </p>
-                  <p> {"with TailGrids"}</p>
+                  <p> {"Assured Scalable & "}</p>
+                  <p> {"Empirical Solutions"} </p>
                 </div>
                 <p className="mb-8 max-w-[480px] text-base text-body-color">
                   {
@@ -46,8 +45,8 @@ function WelcomePanel() {
                 </ul>
 
                 <div className="pt-16 clients">
-                  <h6 className="flex items-center mb-2 text-xs font-normal text-body-color">
-                    {" Some Of Our Clients"}
+                  <h6 className="flex items-center mb-2 text-base font-medium tracking-wider text-body-color">
+                    {" Trusted by"}
                   </h6>
                   <div className="flex items-center">
                     <div className="py-3 mr-7 ">
@@ -67,7 +66,7 @@ function WelcomePanel() {
               </div>
             </div>
             <div class="w-full px-4 lg:w-1/2 xl:w-2/6">
-              <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
+              <div class="relative rounded-lg bg-slate-50 p-8 shadow-2xl sm:p-12">
                 <div class="w-full px-4">
                   <div class="mx-auto mb-2 max-w-[510px] text-center">
                     <h2 class="mb-4 text-2xl  tracking-wide font-bold text-primary1">

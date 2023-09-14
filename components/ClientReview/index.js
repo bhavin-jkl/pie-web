@@ -42,13 +42,18 @@ function ClientReview() {
     },
   ];
   return (
-    <div className="container px-2 mx-auto">
-      <div class="w-full px-4">
-        <div class="mx-auto mb-[60px] max-w-[510px] text-center">
+    <div className="container px-2 mx-auto pb-11">
+      <div
+        class="w-full px-2"
+        data-aos="fade-down"
+        data-aos-duration="900"
+        data-aos-delay="600"
+      >
+        <div class="mx-auto mb-[40px] max-w-[610px] text-center">
           <span class="mb-2 block  tracking-wider text-base font-semibold text-primary9">
             TESTIMONIALS
           </span>
-          <h2 class="mb-4 text-3xl font-bold text-primary1 sm:text-4xl md:text-[40px]">
+          <h2 class="mb-4 text-4xl font-bold text-primary1">
             What do people praise about PIE ?
           </h2>
         </div>
@@ -76,7 +81,12 @@ function ClientReview() {
       >
         {data.map((item) => (
           <SwiperSlide key={item.username}>
-            <div className="flex flex-col w-auto h-full gap-4 p-12 my-2 transition-all bg-white rounded-lg shadow-box-shadow hover:mt-1">
+            <div
+              className="flex flex-col w-auto h-full gap-4 p-12 my-2 transition-all bg-white rounded-lg shadow-box-shadow hover:mt-1"
+              data-aos="fade-down"
+              data-aos-duration="900"
+              data-aos-delay="600"
+            >
               <div className="flex items-center justify-between gap-4">
                 <div className="flex items-center gap-6">
                   <img

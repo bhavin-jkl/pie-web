@@ -54,7 +54,7 @@ function CaseStudies(props) {
             </p>
             <a
               href="#"
-              class="inline-block px-6 py-3 mt-2 rounded-md bg-green-700 text-gray-100"
+              class="inline-block px-6 py-3 mt-2 rounded-md bg-primary1 hover:bg-opacity-90 text-gray-100"
             >
               Read more
             </a>
