@@ -3,10 +3,10 @@ import CountUp from "react-countup";
 const OurProjects = () => {
   return (
     <Fragment>
-      <div className="bg-[#dcf9fc] py-14 my-4">
-        <div className="max-w-7xl mx-auto px-4 flex justify-between gap-8">
-          <div className="flex gap-4 items-center tracking-wider text-lg font-semibold w-1/3">
-            <h1 className="text-6xl font-bold text-orange-600 tracking-wider">
+      <div className="my-4 bg-primary7 py-14">
+        <div className="flex justify-between gap-8 px-4 mx-auto max-w-7xl">
+          <div className="flex items-center w-1/3 gap-4 text-lg font-semibold tracking-wider">
+            <h1 className="text-6xl font-bold tracking-wider text-orange-600">
               <CountUp
                 start={0}
                 end={8}
@@ -19,8 +19,8 @@ const OurProjects = () => {
             </h1>
             <p className="max-w-8">{"Average time to respond to a ticket."}</p>
           </div>
-          <div className="flex gap-4 items-center tracking-wider text-lg font-semibold w-1/3">
-            <h1 className="text-6xl font-bold text-orange-600 tracking-wider">
+          <div className="flex items-center w-1/3 gap-4 text-lg font-semibold tracking-wider">
+            <h1 className="text-6xl font-bold tracking-wider text-orange-600">
               <CountUp
                 start={0}
                 end={3}
@@ -35,8 +35,8 @@ const OurProjects = () => {
               {"Average time to read and respond to an mail."}
             </p>
           </div>
-          <div className="flex gap-4 items-center tracking-wider text-lg font-semibold w-1/3">
-            <h1 className="text-6xl font-bold text-orange-600 tracking-wider">
+          <div className="flex items-center w-1/3 gap-4 text-lg font-semibold tracking-wider">
+            <h1 className="text-6xl font-bold tracking-wider text-orange-600">
               <CountUp
                 start={0}
                 end={90}

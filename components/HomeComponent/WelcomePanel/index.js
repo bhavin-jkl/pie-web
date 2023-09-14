@@ -6,10 +6,10 @@ function WelcomePanel() {
   return (
     <Fragment>
       <div
-        className="relative h-screen pt-14 bg-primary4"
+        className="relative flex items-center justify-center h-screen bg-primary4"
         data-aos="fade-down"
-        data-aos-duration="900"
-        data-aos-delay="600"
+        data-aos-duration="700"
+        data-aos-delay="400"
       >
         <div className="container mx-auto">
           <div className="flex flex-wrap -mx-4">

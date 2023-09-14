@@ -10,8 +10,8 @@ function AboutUs(props) {
         <div
           class="-mx-4 flex flex-wrap"
           data-aos="fade-down"
-          data-aos-duration="900"
-          data-aos-delay="600"
+          data-aos-duration="700"
+          data-aos-delay="400"
         >
           <div class="w-full px-4">
             <div class="mx-auto mb-[60px] max-w-[510px] text-center">

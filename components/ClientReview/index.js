@@ -46,8 +46,8 @@ function ClientReview() {
       <div
         class="w-full px-2"
         data-aos="fade-down"
-        data-aos-duration="900"
-        data-aos-delay="600"
+        data-aos-duration="800"
+        data-aos-delay="500"
       >
         <div class="mx-auto mb-[40px] max-w-[610px] text-center">
           <span class="mb-2 block  tracking-wider text-base font-semibold text-primary9">
