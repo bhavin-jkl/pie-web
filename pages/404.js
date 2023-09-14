@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 
 function Custom404() {
-
   return (
     <Fragment>
       <div className="flex h-[calc(100vh-80px)] items-center justify-center p-5 bg-white w-full">
@@ -22,7 +21,7 @@ function Custom404() {
             404 - Page not found
           </h1>
           <div className="flex flex-col mt-5 text-slate-600 lg:text-lg">
-            <p> The page you are looking for doesn't exist or</p>
+            <p> {"The page you are looking for doesn't exist or"}</p>
             <p> has been removed.</p>
           </div>
         </div>
