@@ -12,7 +12,7 @@ function Footer() {
         <div class="mx-10">
           <div class="-mx-4 flex flex-wrap">
             <div class="w-full  sm:w-2/3 lg:w-4/12">
-              <div class="mb-10 w-full">
+              <div class=" w-full">
                 <p className="mb-2 text-lg font-semibold text-white">
                   About Us
                 </p>
@@ -155,23 +155,6 @@ function Footer() {
               </p>
             </div>
           </div>
-        </div>
-
-        <div>
-          <span class="absolute left-0 bottom-0 z-[-1]">
-            <img
-              src="/assets/images/svg/footer.svg"
-              alt="nothing"
-              className="w-[250px] -mb-16 2xl:-mb-20 2xl:mr-0 z-0 -mr-0"
-            />
-          </span>
-          <span class="absolute top-10 right-10 z-[-1]">
-            <img
-              src="/assets/images/svg/footer.svg"
-              alt="nothing"
-              className=" w-[250px]  2xl:-mb-10 2xl:mr-0 z-0 -mr-0"
-            />
-          </span>
         </div>
       </footer>
     </Fragment>
