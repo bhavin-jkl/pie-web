@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 function AboutUs(props) {
   const {} = props;
   return (
-    <section class="bg-[#F3F4F6] pt-10 pb-10 lg:pt-[120px] lg:pb-20">
+    <section class="bg-[#F3F4F6] pb-10 pt-10 lg:pb-10">
       <div class="container mx-auto">
         <div
           class="-mx-4 flex flex-wrap"
