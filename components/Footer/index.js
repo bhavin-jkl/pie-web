@@ -12,7 +12,7 @@ function Footer() {
         <div class="mx-10">
           <div class="-mx-4 flex flex-wrap">
             <div class="w-full  sm:w-2/3 lg:w-4/12">
-              <div class=" w-full">
+              <div class=" w-full z-20">
                 <p className="mb-2 text-lg font-semibold text-white">
                   About Us
                 </p>
@@ -34,7 +34,7 @@ function Footer() {
             </div>
 
             <div class="w-full  sm:w-1/2 lg:w-2/12">
-              <div class=" rounded-lg  pl-5">
+              <div class=" rounded-lg  pl-5 z-20">
                 <p className="mb-2 text-lg font-semibold text-white">
                   Quick Link
                 </p>
@@ -63,7 +63,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="max-w-xs mx-auto rounded ">
+            <div className="max-w-xs mx-auto rounded  z-20">
               <h2 className="mb-2 text-lg font-semibold text-white">
                 Subscribe
               </h2>
@@ -119,7 +119,7 @@ function Footer() {
               </form>
             </div>
 
-            <div class="w-full  sm:w-1/2 lg:w-3/12">
+            <div class="w-full  sm:w-1/2 lg:w-3/12 z-20">
               <div class="mb-10 w-full">
                 <h4 class="mb-4 text-lg font-semibold text-dark">
                   Follow Us On
@@ -155,6 +155,13 @@ function Footer() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center items-center absolute text-center top-0 -z-10 opacity-40 w-full">
+          <img
+            src="/assets/images/png/map.png"
+            alt="hello"
+            className="w-[700px]"
+          />
         </div>
       </footer>
     </Fragment>
