@@ -1,8 +1,6 @@
 import React, { Fragment } from "react";
-import { useTranslation } from "react-i18next";
 
 function Custom404() {
-  const { t } = useTranslation();
 
   return (
     <Fragment>
@@ -24,8 +22,8 @@ function Custom404() {
             {t("errorPage.404Title")}
           </h1>
           <div className="flex flex-col mt-5 text-slate-600 lg:text-lg">
-            <p> {t("errorPage.404Description1")}</p>
-            <p> {t("errorPage.404Description2")}</p>
+            <p> {"errorPage.404Description1"}</p>
+            <p> {"errorPage.404Description2"}</p>
           </div>
         </div>
       </div>
