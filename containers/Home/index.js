@@ -2,6 +2,7 @@ import AboutUs from "@components/Aboutus";
 import WelcomePanel from "@components/HomeComponent/WelcomePanel";
 import IndustryServeList from "@components/IndustryServeList";
 import ClientReview from "@components/ClientReview";
+import OurProjects from "@components/OurProjects";
 import React, { Fragment } from "react";
 
 export default function Home() {
@@ -9,8 +10,9 @@ export default function Home() {
     <Fragment>
       <WelcomePanel />
       <AboutUs />
-      <IndustryServeList/>
+      <IndustryServeList />
       <ClientReview />
+      <OurProjects />
     </Fragment>
   );
 }
