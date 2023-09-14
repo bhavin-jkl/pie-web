@@ -1,8 +1,6 @@
 import React, { Fragment } from "react";
-import { useTranslation } from "react-i18next";
 
 function Custom404() {
-  const { t } = useTranslation();
 
   return (
     <Fragment>
@@ -21,11 +19,11 @@ function Custom404() {
             </div>
           </div>
           <h1 className="mt-5 text-[36px] font-bold text-slate-800 lg:text-[50px]">
-            {t("errorPage.404Title")}
+            404 - Page not found
           </h1>
           <div className="flex flex-col mt-5 text-slate-600 lg:text-lg">
-            <p> {t("errorPage.404Description1")}</p>
-            <p> {t("errorPage.404Description2")}</p>
+            <p> The page you are looking for doesn't exist or</p>
+            <p> has been removed.</p>
           </div>
         </div>
       </div>
