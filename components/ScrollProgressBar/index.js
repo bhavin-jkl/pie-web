@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 /* eslint-disable react/forbid-dom-props */
 import React, { Fragment, useEffect, useState } from "react";
 import classNames from "classnames";
