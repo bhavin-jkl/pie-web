@@ -1,9 +1,10 @@
+import ClientReview from "@components/ClientReview";
 import React, { Fragment } from "react";
 
 export default function Home() {
   return (
     <Fragment>
-      <p>Here all components will put</p>
+      {/* <ClientReview /> */}
     </Fragment>
   );
 }
