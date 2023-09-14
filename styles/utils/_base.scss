@@ -1,0 +1,10 @@
+// common styles
+body {
+  min-width: 375px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-family: $primary-font;
+  background-color: #fff;
+  @apply text-primary3 dark:bg-neutrals1 dark:text-neutrals8;
+}
