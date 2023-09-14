@@ -61,7 +61,7 @@ function ClientReview() {
         pagination={{
           clickable: true,
         }}
-        onAutoplay={{ delay: 3000 }}
+        onAutoplay={{ delay: 1000 }}
         autoplay={{
           delay: 2000,
           pauseOnMouseEnter: true,
@@ -70,7 +70,7 @@ function ClientReview() {
       >
         {data.map((item) => (
           <SwiperSlide key={item.username}>
-            <div className="flex flex-col w-auto h-full gap-4 p-12 transition-all bg-white rounded-lg shadow-box-shadow hover:mt-1 my-2">
+            <div className="flex flex-col w-auto h-full gap-4 p-12 transition-all bg-white rounded-lg shadow-box-shadow hover:mt-1 my-2 mx-2">
               <div className="flex items-center justify-between gap-4">
                 <div className="flex items-center gap-6">
                   <img
