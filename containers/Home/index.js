@@ -1,9 +1,14 @@
+import AboutUs from "@components/Aboutus";
+import WelcomePanel from "@components/HomeComponent/WelcomePanel";
+import IndustryServeList from "@components/IndustryServeList";
 import React, { Fragment } from "react";
 
 export default function Home() {
   return (
     <Fragment>
-      <p>Here all components will put</p>
+      <WelcomePanel />
+      <AboutUs />
+      <IndustryServeList/>
     </Fragment>
   );
 }
