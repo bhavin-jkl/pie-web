@@ -16,9 +16,9 @@
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
     "react-i18next": "^13.2.2",
+    "react-icons": "^4.11.0",
     "react-iframe": "^1.8.5",
     "react-typed": "^1.2.0",
-    "react-icons": "^4.11.0",
     "swiper": "^10.2.0"
   },
   "devDependencies": {

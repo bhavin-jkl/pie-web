@@ -11,6 +11,7 @@ function ClientReview() {
     {
       name: "Bob",
       username: "@Bob123",
+      img: "assets/images/jpg/p1.jpg",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, totam repellat. Ipsam, tenetur magni. Debitis ipsum similique dolor quaeexercitationem dolores aspernatur. Quis aut sequi cupiditate veritatis natus odio delen.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, totam repellat",
       rate: 5,
@@ -18,6 +19,7 @@ function ClientReview() {
     {
       name: "Tom",
       username: "@Tom123",
+      img: "assets/images/jpg/p2.jpeg",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, totam repellat. Ipsam, tenetur magni. Debitis ipsum similique dolor quaeexercitationem dolores aspernatur. Quis aut sequi cupiditate veritatis natus odio delen.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, totam repellat",
       rate: 2.5,
@@ -25,12 +27,15 @@ function ClientReview() {
     {
       name: "Harry",
       username: "@Harry123",
+      img: "assets/images/jpg/p3.jpg",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, totam repellat. Ipsam, tenetur magni. Debitis ipsum similique dolor quaeexercitationem dolores aspernatur. Quis aut sequi cupiditate veritatis natus odio delen.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, totam repellat",
+      rate: 3.5,
     },
     {
       name: "Nick",
       username: "@vatsal123",
+      img: "assets/images/jpg/p4.jpg",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, totam repellat. Ipsam, tenetur magni. Debitis ipsum similique dolor quaeexercitationem dolores aspernatur. Quis aut sequi cupiditate veritatis natus odio delen.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, totam repellat",
       rate: 4.5,
@@ -74,7 +79,7 @@ function ClientReview() {
               <div className="flex items-center justify-between gap-4">
                 <div className="flex items-center gap-6">
                   <img
-                    src="/assets/images/svg/whatsapp.svg"
+                    src={item.img}
                     alt="Img"
                     className="rounded-full shadow-lg h-14 w-14"
                   />
