@@ -39,7 +39,7 @@ function ScrollProgressBar() {
     <Fragment>
       <div
         className={classNames(
-          "fixed bottom-5 right-8 cursor-pointer flex items-center justify-center transition-opacity duration-500 ease-in-out",
+          "fixed bottom-5 right-8 cursor-pointer flex items-center justify-center transition-opacity duration-500 ease-in-out z-50",
           {
             "opacity-100 scale-100": isVisible,
             "opacity-0 scale-0": !isVisible,

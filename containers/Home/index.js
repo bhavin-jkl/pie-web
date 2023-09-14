@@ -8,6 +8,7 @@ import VideoPlayer from "@components/VideoPlayer";
 import Blog from "@components/Blog";
 import ContactUsPanel from "@components/ContactUsPanel";
 import CaseStudies from "@components/CaseStudy";
+import Card from "@components/Card";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <ClientReview />
       <OurProjects />
       <VideoPlayer />
+      <Card />
       <CaseStudies />
       {/* <Blog /> */}
       <ContactUsPanel />

@@ -63,7 +63,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="max-w-xs mx-auto rounded  z-20">
+            <div className="z-20 max-w-xs mx-auto rounded">
               <h2 className="mb-2 text-lg font-semibold text-white">
                 Subscribe
               </h2>
@@ -156,7 +156,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center absolute text-center top-0 -z-10 opacity-40 w-full">
+        <div className="absolute top-0 flex items-center justify-center w-[90%] text-center -z-10 opacity-40">
           <img
             src="/assets/images/png/map.png"
             alt="hello"
