@@ -15,14 +15,14 @@ function IndustryServeList() {
           >
             <div class="mx-auto mb-[60px] max-w-[510px] text-center">
               <span class="mb-2 block text-lg font-semibold text-primary9">
-                WHY CHOOSE US
+                SERVICES
               </span>
               <h2 class="mb-4 text-3xl font-bold text-primary1 sm:text-4xl md:text-[40px]">
-                Why Choose Us
+                Industries We Serve
               </h2>
               <p class="text-base text-body-color">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Here, we make almost every genre of applications. You name it
+                and we, build it.
               </p>
             </div>
           </div>

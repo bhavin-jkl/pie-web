@@ -43,16 +43,17 @@ function ClientReview() {
   ];
   return (
     <div className="container px-2 mx-auto">
-      <div className="flex flex-col items-center justify-center gap-2 pt-20 pb-10">
-        <p className="font-bold tracking-widest text-gray-400">
-          {"TESTIMONIALS"}
-        </p>
-        <h1 className="text-2xl font-semibold text-orange-600 tracking-wider">
-          {"What do people praise about"}{" "}
-          <span className="tracking-widest font-bold underline">{"PIE"}</span>
-          {" ?"}
-        </h1>
+      <div class="w-full px-4">
+        <div class="mx-auto mb-[60px] max-w-[510px] text-center">
+          <span class="mb-2 block  tracking-wider text-base font-semibold text-primary9">
+            TESTIMONIALS
+          </span>
+          <h2 class="mb-4 text-3xl font-bold text-primary1 sm:text-4xl md:text-[40px]">
+            What do people praise about PIE ?
+          </h2>
+        </div>
       </div>
+
       <Swiper
         spaceBetween={25}
         slidesPerView={1}
@@ -75,7 +76,7 @@ function ClientReview() {
       >
         {data.map((item) => (
           <SwiperSlide key={item.username}>
-            <div className="flex flex-col w-auto h-full gap-4 p-12 transition-all bg-white rounded-lg shadow-box-shadow hover:mt-1 my-2 mx-2">
+            <div className="flex flex-col w-auto h-full gap-4 p-12 my-2 transition-all bg-white rounded-lg shadow-box-shadow hover:mt-1">
               <div className="flex items-center justify-between gap-4">
                 <div className="flex items-center gap-6">
                   <img
